@@ -23,7 +23,7 @@ public class Utilidades {
      */
     public static boolean esPalindromo(String texto) {
         String alReves = new StringBuilder(texto).reverse().toString();
-        return alReves == texto;
+        return alReves.equals(texto);
     }
 
     /**
