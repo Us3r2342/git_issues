@@ -10,7 +10,7 @@ public class Utilidades {
      * Ejemplo: {1, 2} -> 1.5
      */
     public static double calcularMedia(int[] numeros) {
-        int suma = 0;
+        double suma = 0;
         for (int n : numeros) {
             suma += n;
         }
